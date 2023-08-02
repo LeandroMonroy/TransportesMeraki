@@ -5,22 +5,22 @@
 }
 
 :root {
-  --naranjo: #ff4c0c;
-  --gris: #575555;
+  --primary-color: #ff4c0c;
+  --secondary-color: #575555;
   --blanco: white;
 }
 
 /* Personalización Corporativa*/
 * {
-  color: var(--gris);
+  color: var(--secondary-color);
 }
 
 .text-gris {
-  color: var(--gris);
+  color: var(--secondary-color);
 }
 
 .contraste {
-  color: var(--naranjo);
+  color: var(--primary-color);
   font-weight: bold;
 }
 
@@ -30,29 +30,29 @@
 }
 
 .corp-brand {
-  color: var(--gris);
+  color: var(--secondary-color);
   font-weight: bold;
 }
 
 .btn-corp {
-  border-color: var(--naranjo);
-  color: var(--naranjo);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btn-card {
-  background-color: var(--naranjo);
+  background-color: var(--primary-color);
   color: var(--blanco);
-  border: 1px solid var(--naranjo);
+  border: 1px solid var(--primary-color);
 }
 
 .btn-corp:hover {
-  background-color: var(--naranjo);
-  border-color: var(--naranjo);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .btn-card:hover {
-  color: var(--naranjo);
-  border: 1px solid var(--naranjo);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   background-color: var(--blanco);
 }
 
@@ -63,7 +63,7 @@
 }
 
 .card-container {
-  background-color: var(--naranjo);
+  background-color: var(--primary-color);
   padding: 40px;
 }
 
@@ -90,7 +90,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px;
+  padding: 0;
   border-radius: 6px;
   display: flex;
   justify-content: center;
@@ -104,7 +104,7 @@
 }
 
 :focus {
-  outline: 1px solid var(--naranjo);
+  outline: 1px solid var(--primary-color);
 }
 
 .min-height-400 {

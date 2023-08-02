@@ -1,168 +1,254 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Transportes Meraki</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link rel="icon" href="../img/meraki-icon-min.png">
-
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" href="../img/meraki-icon-min.png" />
+  </head>
 
   <body>
-    
-
     <!---- CABECERA ----->
     <header class="">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-5 text-center"
+      >
+        <div class="container-fluid container-nav">
+          <img
+            src="../img/MerakiLogo-min.png"
+            alt="Logo"
+            width="auto"
+            height="50"
+            class="d-inline-block align-text-top"
+          />
+          <a
+            class="navbar-brand corp-brand d-none d-md-block text-white"
+            href="../../index.html"
+          >
+            Transportes <span class="contraste pe-5">Meraki</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Inicio</a>
+              </li>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-5">
-            <div class="container-fluid container-nav">
-                <img src="/assets/img/MerakiLogo-min.png" alt="Logo" width="auto" height="50" class="d-inline-block align-text-top">
-                <a class="navbar-brand corp-brand" href="#"> Transportes <span class="contraste pe-5">Meraki</span></a> 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link" href="../../index.html">Inicio</a>
-                      </li>
-                        
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
-                      </li>
-                        
-                      <li class="nav-item">
-                        <a class="nav-link" href="servicios.html">Servicios</a>
-                      </li>
-                        
-                      <li class="nav-item">
-                        <a class="nav-link" href="flota.html">Flota</a>
-                      </li>    
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Nosotros</a
+                >
+              </li>
 
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/contacto.html"">Contacto</a>
-                      </li>    
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-danger btn-corp" type="submit">Buscar</button>
-                    </form>
-                </div>
-            </div>
-          </nav>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
 
+              <li class="nav-item">
+                <a class="nav-link" href="./flota.html">Flota</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-danger btn-corp" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
-
 
     <!-----  PRINCIPAL ----->
     <main class="antifix">
-        <div class="container-fluid banner-page d-flex justify-content-center">
-            <h1 class="text-white align-self-center">NOSOTROS</h1>
-        </div>
+      <div class="container-fluid banner-page d-flex justify-content-center">
+        <h1 class="text-white align-self-center">NOSOTROS</h1>
+      </div>
 
-        <!-- NOSOTROS-->
+      <!-- NOSOTROS-->
       <div class="container my-5 px-5">
         <div class="col-sm-12">
           <h2 class="">Transportes <span class="contraste"> Meraki</span></h2>
           <p>
-            Somos una empresa de transporte privado de personas dentro de la Primera Región, contamos con un alto estándar en Seguridad y valores éticos que traspasamos cada día a nuestra labor, estamos comprometidos con nuestro principal objetivo que es satisfacer las necesidades, expectativas y requerimientos de nuestros clientes, a través de un servicio en forma segura, puntual y confortable, potenciando el desarrollo de relaciones a largo plazo.
-            Nuestros colaboradores cuentan con experiencia en distintas faenas mineras, empresas de transportes y mutualidades; los cuales son claves al momento de llevar a cabo nuestra gestión preventiva, evaluando, planificando y desarrollando soluciones especificas y adecuadas a las necesidades de cada cliente.
-            Entendemos que la calidad de nuestro servicio depende de las personas que trabajan con nosotros, es por esto que como organización nos centramos en el reclutamiento y selección de personas, manteniendo un permanente entrenamiento y desarrollo de competencias de nuestros colaboradores, contando con lideres eficaces y un equipo competente y comprometido. 
-            Nuestro compromiso de servicio con los clientes es brindar puntualidad, seguridad y calidad, es por esto que contamos con un Programa de Seguridad, Salud Ocupacional y Medio Ambiente, normando los principales procesos de gestión preventiva de <span class="contraste">TRANSPORTES MERAKI</span>, velando por la seguridad y salud de las personas, evitando daños a la propiedad de nuestra organización, clientes y Medio Ambiente, dando cumplimiento a los requisitos legales, normativas internas y estándares establecidos.
+            Somos una empresa de transporte privado de personas dentro de la
+            Primera Región, contamos con un alto estándar en Seguridad y valores
+            éticos que traspasamos cada día a nuestra labor, estamos
+            comprometidos con nuestro principal objetivo que es satisfacer las
+            necesidades, expectativas y requerimientos de nuestros clientes, a
+            través de un servicio en forma segura, puntual y confortable,
+            potenciando el desarrollo de relaciones a largo plazo. Nuestros
+            colaboradores cuentan con experiencia en distintas faenas mineras,
+            empresas de transportes y mutualidades; los cuales son claves al
+            momento de llevar a cabo nuestra gestión preventiva, evaluando,
+            planificando y desarrollando soluciones especificas y adecuadas a
+            las necesidades de cada cliente. Entendemos que la calidad de
+            nuestro servicio depende de las personas que trabajan con nosotros,
+            es por esto que como organización nos centramos en el reclutamiento
+            y selección de personas, manteniendo un permanente entrenamiento y
+            desarrollo de competencias de nuestros colaboradores, contando con
+            lideres eficaces y un equipo competente y comprometido. Nuestro
+            compromiso de servicio con los clientes es brindar puntualidad,
+            seguridad y calidad, es por esto que contamos con un Programa de
+            Seguridad, Salud Ocupacional y Medio Ambiente, normando los
+            principales procesos de gestión preventiva de
+            <span class="contraste">TRANSPORTES MERAKI</span>, velando por la
+            seguridad y salud de las personas, evitando daños a la propiedad de
+            nuestra organización, clientes y Medio Ambiente, dando cumplimiento
+            a los requisitos legales, normativas internas y estándares
+            establecidos.
           </p>
         </div>
-        
-        <div class="row align-items-center">
 
+        <div class="row align-items-center">
           <div class="d-none d-md-block col-lg-4">
-            <img src="/assets/img/movil-mision.png" alt="movil-mision" class="w-100 rounded-4">
+            <img
+              src="../img/movil-mision.png"
+              alt="movil-mision"
+              class="w-100 rounded-4"
+            />
           </div>
           <div class="col-sm-12 col-lg-8">
-
             <h2>Nuestra <span class="contraste">Misión</span></h2>
             <p>
-              La Misión de Transportes Meraki, es satisfacer las necesidades de nuestros clientes entregando de
-              forma integral el servicio de transportes de personal, esforzándonos en ser reconocidos por
-              nuestra calidad, confiabilidad, compromiso y transparencia ya que con responsabilidad,
-              profesionalismo y apego a la ley podemos entregar seguridad a cada uno de nuestros clientes.
+              La Misión de Transportes Meraki, es satisfacer las necesidades de
+              nuestros clientes entregando de forma integral el servicio de
+              transportes de personal, esforzándonos en ser reconocidos por
+              nuestra calidad, confiabilidad, compromiso y transparencia ya que
+              con responsabilidad, profesionalismo y apego a la ley podemos
+              entregar seguridad a cada uno de nuestros clientes.
             </p>
-            
+
             <h2>Nuestra <span class="contraste">Visión</span></h2>
             <p>
-              La visión de Transportes Meraki, es ser una empresa líder en el traslado de personal en ciudad y
-              hacia o desde faenas mineras, procurando satisfacer a nuestros clientes, prestando servicios que
-              concuerdan plenamente con las exigencias técnicas, económicas y legales que imponen las
-              autoridades competentes y empresas mandantes.
-              Aumentar nuestros clientes, orientándonos especialmente a todas las empresas que mantengan la
-              necesidad de trasladar a su personal a distintos puntos de trabajo. Contar con el mejor recurso
-              humano para la prestación de nuestro servicio de traslado de personas, nos encontramos
-              capacitados para asegurar una excelente calidad del servicio manteniendo motivados a nuestros
-              trabajadores a que cumplan sus objetivos a través de un ambiente grato de trabajo y también en
-              las actividades operativas de la responsabilidad de cuidar el medio ambiente.
+              La visión de Transportes Meraki, es ser una empresa líder en el
+              traslado de personal en ciudad y hacia o desde faenas mineras,
+              procurando satisfacer a nuestros clientes, prestando servicios que
+              concuerdan plenamente con las exigencias técnicas, económicas y
+              legales que imponen las autoridades competentes y empresas
+              mandantes. Aumentar nuestros clientes, orientándonos especialmente
+              a todas las empresas que mantengan la necesidad de trasladar a su
+              personal a distintos puntos de trabajo. Contar con el mejor
+              recurso humano para la prestación de nuestro servicio de traslado
+              de personas, nos encontramos capacitados para asegurar una
+              excelente calidad del servicio manteniendo motivados a nuestros
+              trabajadores a que cumplan sus objetivos a través de un ambiente
+              grato de trabajo y también en las actividades operativas de la
+              responsabilidad de cuidar el medio ambiente.
             </p>
           </div>
         </div>
       </div>
-
-
     </main>
-
 
     <!---- FOOTER ---->
     <footer>
-        <div class="container-fluid bg-dark">
-          <div class="row p-5 pb-0">
-            
-             <!-- Columna 1 Logo -->
-            <div class="col-md-12 col-lg-3 d-flex justify-content-center">
-              <!--<h2 class="text-white">Transportes <span class="contraste">Meraki</span></h2>-->
-              <div class="d-flex align-items-center justify-content-center"><img src="/assets/img/logo_meraki_white.png" alt="Logo" width="200px" height="" class=""></div>
+      <div class="container-fluid bg-dark">
+        <div class="row p-5 pb-0">
+          <!-- Columna 1 Logo -->
+          <div class="col-md-12 col-lg-3 d-flex justify-content-center">
+            <!--<h2 class="text-white">Transportes <span class="contraste">Meraki</span></h2>-->
+            <div class="d-flex align-items-center justify-content-center">
+              <img
+                src="../img/logo_meraki_white.png"
+                alt="Logo"
+                width="200px"
+                height=""
+                class=""
+              />
             </div>
-  
-             <!-- Columna 2 Horariis -->
-            <div class="col-md-12 col-lg-3">
-                <p class="text-white my-4">Horario de Atención</p>
-                <p><i class="fa-regular fa-calendar-days me-3"></i> Lunes a Viernes</p>
-                <p><i class="fa-solid fa-clock me-3"></i> 08:30 - 13:00 horas</p>
-                <p><i class="fa-solid fa-clock me-3"></i> 15:00 - 17:00 horas</p>
-            </div>
-  
-             <!-- Columna 3 Contacto -->
-            <div class="col-md-12 col-lg-3">
-  
-              <p class="text-white my-4">Contáctanos</p>
-              <p><i class="fas fa-home me-3"></i> Iquique, Padre Hurtado #2369, Torre Norte Of.3005</p>
-              <p><i class="fas fa-envelope me-3"></i>contacto@transportesmeraki.cl</p>
-              <p><i class="fas fa-phone me-3"></i> +56 9 5399 5840</p>
-              <p><i class="fas fa-phone me-3"></i> +56 9 5527 2960</p> 
-            </div>
-  
-            <!-- Columna 4 Instagram box -->
-            <div class="col-md-12 col-md-6 col-lg-3 d-flex justify-content-center">
-                <iframe class="rounded-4 m-0-auto" width="80%" height="auto" src="https://www.instagram.com/meraki_transportesiqq/embed/" frameborder=""></iframe>
-              </div>
-  
-             <!-- Columna 5 Copyright -->
-            <div class="col-md-12 mt-5">
-              <p class="text-white text-center"> &copy; 2023 - Transportes<span class="contraste"> Meraki </span> por 
-              <a href="https://www.instagram.com/decomt/" class="text-decoration-none text-white" target="_blank" >DecoMT</a></p>
-            </div>
-          
+          </div>
+
+          <!-- Columna 2 Horarios -->
+          <div class="col-md-12 col-lg-3">
+            <p class="text-white my-4">Horario de Atención</p>
+            <p>
+              <i class="fa-regular fa-calendar-days me-3"></i> Lunes a Viernes
+            </p>
+            <p><i class="fa-solid fa-clock me-3"></i> 08:30 - 13:00 horas</p>
+            <p><i class="fa-solid fa-clock me-3"></i> 15:00 - 17:00 horas</p>
+          </div>
+
+          <!-- Columna 3 Contacto -->
+          <div class="col-md-12 col-lg-3">
+            <p class="text-white my-4">Contáctanos</p>
+            <p>
+              <i class="fas fa-home me-3"></i> Iquique, Padre Hurtado #2369,
+              Torre Norte Of.3005
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>contacto@transportesmeraki.cl
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +56 9 5399 5840</p>
+            <p><i class="fas fa-phone me-3"></i> +56 9 5527 2960</p>
+          </div>
+
+          <!-- Columna 4 Instagram box -->
+          <div
+            class="col-md-12 col-md-6 col-lg-3 d-flex justify-content-center"
+          >
+            <iframe
+              class="rounded-4 m-0-auto"
+              width="80%"
+              height="auto"
+              src="https://www.instagram.com/meraki_transportesiqq/embed/"
+              frameborder=""
+            ></iframe>
+          </div>
+
+          <!-- Columna 5 Copyright -->
+          <div class="col-md-12 mt-5">
+            <p class="text-white text-center">
+              &copy; 2023 - Transportes<span class="contraste"> Meraki </span>
+              por
+              <a
+                href="https://www.instagram.com/decomt/"
+                class="text-decoration-none text-white"
+                target="_blank"
+                >DecoMT</a
+              >
+            </p>
           </div>
         </div>
-      </footer>
-
+      </div>
+    </footer>
 
     <!-- Scripts JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
-            crossorigin="anonymous">
-    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Scripts Font Awesome -->
-    <script src="https://kit.fontawesome.com/f9c815ff21.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/f9c815ff21.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

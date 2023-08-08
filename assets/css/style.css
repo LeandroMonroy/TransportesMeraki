@@ -79,6 +79,22 @@
   margin-top: 60px;
 }
 
+.sombra-crecer {
+  border-radius: 20px; /*agrego efecto esquinas redondas, pueden incluso agregar sombras*/
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.5); /*sombra*/
+  transition: all .4s ease-in-out; 
+}
+
+.sombra-crecer:hover {
+  transform: scale(1.1); /*Efecto agrandado */
+}
+
+.fa-big{
+  font-size: 4em;
+  color: var(--blanco);
+}
+
+
 /* ------- CONTACTO ----- */
 .container-form {
   background-image: linear-gradient(
@@ -110,5 +126,25 @@
 .min-height-400 {
   min-height: 400px;
 }
+
+.parallax {
+  background-image: url(/assets/img/flota-1.png);
+  min-height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-serv1 {
+  background-color: #61516a;
+}
+
+.bg-serv2 {
+  background-color: #008C83;
+}
+
+
 
 /* -----------------------------*/

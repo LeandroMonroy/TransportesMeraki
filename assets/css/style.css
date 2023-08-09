@@ -105,12 +105,10 @@
     url('../img/Banner-2.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   padding: 0;
   border-radius: 6px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .container-form label {
@@ -125,6 +123,7 @@
 
 .min-height-400 {
   min-height: 400px;
+ padding: 0;
 }
 
 .parallax {
@@ -144,6 +143,8 @@
 .bg-serv2 {
   background-color: #008C83;
 }
+
+
 
 
 

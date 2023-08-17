@@ -1,59 +1,50 @@
-/* Declaración de variables*/
 * {
   margin: 0;
   padding: 0;
+  color: #575555;
 }
 
-:root {
-  --primary-color: #ff4c0c;
-  --secondary-color: #575555;
-  --blanco: white;
-}
-
-/* Personalización Corporativa*/
-* {
-  color: var(--secondary-color);
+.antifix {
+  margin-top: 60px;
 }
 
 .text-gris {
-  color: var(--secondary-color);
+  color: #575555;
 }
 
 .contraste {
-  color: var(--primary-color);
+  color: #ff4c0c;
   font-weight: bold;
 }
 
 .contraste2 {
-  color: var(--blanco);
+  color: white;
   font-weight: bold;
 }
 
 .corp-brand {
-  color: var(--secondary-color);
+  color: #575555;
   font-weight: bold;
 }
 
 .btn-corp {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
+  border-color: #ff4c0c;
+  color: #ff4c0c;
+}
+.btn-corp:hover {
+  background-color: #ff4c0c;
+  border-color: #ff4c0c;
 }
 
 .btn-card {
-  background-color: var(--primary-color);
-  color: var(--blanco);
-  border: 1px solid var(--primary-color);
+  background-color: #ff4c0c;
+  color: white;
+  border: 1px solid #ff4c0c;
 }
-
-.btn-corp:hover {
-  background-color: var(--primary-color);
-  border-color: var(--primary-color);
-}
-
 .btn-card:hover {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  background-color: var(--blanco);
+  color: #ff4c0c;
+  border: 1px solid #ff4c0c;
+  background-color: white;
 }
 
 .info-img {
@@ -63,7 +54,7 @@
 }
 
 .card-container {
-  background-color: var(--primary-color);
+  background-color: #ff4c0c;
   padding: 40px;
 }
 
@@ -75,59 +66,17 @@
   background-repeat: no-repeat;
 }
 
-.antifix {
-  margin-top: 60px;
-}
-
 .sombra-crecer {
-  border-radius: 20px; /*agrego efecto esquinas redondas, pueden incluso agregar sombras*/
-  box-shadow: 10px 10px 5px rgba(0,0,0,0.5); /*sombra*/
-  transition: all .4s ease-in-out; 
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
 }
-
 .sombra-crecer:hover {
-  transform: scale(1.1); /*Efecto agrandado */
-}
-
-.fa-big{
-  font-size: 4em;
-  color: var(--blanco);
-}
-
-
-/* ------- CONTACTO ----- */
-.container-form {
-  background-image: linear-gradient(
-      50deg,
-      rgb(183, 162, 147, 1) 50%,
-      rgb(183, 162, 147, 0.5)
-    ),
-    url('../img/Banner-2.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  padding: 0;
-  border-radius: 6px;
-  
-}
-
-.container-form label {
-  font-size: 1.2em;
-  color: var(--blanco);
-  padding-top: 5px;
-}
-
-:focus {
-  outline: 1px solid var(--primary-color);
-}
-
-.min-height-400 {
-  min-height: 400px;
- padding: 0;
+  transform: scale(1.1);
 }
 
 .parallax {
-  background-image: url('../img/flota-1.png');
+  background-image: url("../img/flota-1.png");
   min-height: 350px;
   background-attachment: fixed;
   background-position: center;
@@ -135,17 +84,34 @@
   background-size: cover;
 }
 
+.min-height-400 {
+  min-height: 400px;
+  padding: 0;
+}
+
+.container-form {
+  background-image: linear-gradient(50deg, rgb(183, 162, 147) 50%, rgba(183, 162, 147, 0.5)), url("../img/Banner-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  border-radius: 6px;
+}
+.container-form label {
+  font-size: 1.2em;
+  color: white;
+  padding-top: 5px;
+}
+.container-form:focus {
+  outline: 1px solid #ff4c0c;
+}
 
 .bg-serv1 {
   background-color: #61516a;
 }
 
 .bg-serv2 {
-  background-color: #008C83;
+  background-color: #008c83;
 }
 
-
-
-
-
-/* -----------------------------*/
+/*# sourceMappingURL=style.css.map */

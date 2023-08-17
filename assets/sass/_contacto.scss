@@ -1,0 +1,22 @@
+@use 'principal';
+
+.container-form{
+    background-image: linear-gradient(        50deg,        rgb(183, 162, 147, 1) 50%,        rgba(183, 162, 147, 0.5)    ), url('../img/Banner-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    border-radius: 6px;
+
+    & label{
+        font-size:1.2em;
+        color: principal.$third-color;
+        padding-top: 5px;
+    }
+
+    &:focus{
+        outline: 1px solid principal.$primary-color;
+    }
+}
+
+

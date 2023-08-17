@@ -1,0 +1,95 @@
+$primary-color:#ff4c0c;
+$secondary-color: #575555;
+$third-color: white;
+
+* {
+    margin: 0;
+    padding: 0;
+    color: $secondary-color;
+}
+
+.antifix{
+    margin-top: 60px;
+}
+
+.text-gris{
+    color: $secondary-color;
+}
+
+.contraste{
+    color: $primary-color;
+    font-weight: bold;
+}
+
+.contraste2{
+    color: $third-color;
+    font-weight: bold;
+}
+
+.corp-brand{
+    color:$secondary-color;
+    font-weight: bold;
+}
+
+.btn-corp{
+    border-color: $primary-color;
+    color: $primary-color;
+    &:hover{
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
+}
+
+.btn-card{
+    background-color: $primary-color;
+    color: $third-color;
+    border: 1px solid $primary-color;
+    &:hover{
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        background-color: $third-color;
+    }
+}
+
+.info-img{
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 5px;
+}
+
+.card-container {
+    background-color: $primary-color;
+    padding: 40px;
+}
+
+.banner-page{
+    background-image: url(../img/back-banner.png);
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sombra-crecer{
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out;
+    &:hover{
+        transform: scale(1.1);    ;
+    }
+}
+
+.parallax{
+    background-image: url('../img/flota-1.png');
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.min-height-400{
+    min-height: 400px;
+    padding: 0;
+}
+

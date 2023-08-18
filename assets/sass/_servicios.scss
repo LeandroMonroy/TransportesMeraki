@@ -1,7 +1,11 @@
+@mixin serv($fondo){
+    background-color: $fondo;
+}
+
 .bg-serv1 {
-    background-color: #61516a;
+    @include serv(#61516a);
 }
 
 .bg-serv2 {
-    background-color: #008c83;
+    @include serv(#008c83);
 }

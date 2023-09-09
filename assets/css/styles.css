@@ -89,6 +89,10 @@
   padding: 0;
 }
 
+.ancho{
+  max-width: 100vw;
+}
+
 .container-form {
   background-image: linear-gradient(50deg, rgb(183, 162, 147) 50%, rgba(183, 162, 147, 0.5)), url("../img/Banner-2.png");
   background-position: center;

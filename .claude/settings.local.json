@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "PowerShell(gh auth status)",
+      "PowerShell(git config user.name)",
+      "PowerShell(git config user.email)",
+      "PowerShell(gh --version)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Read(//c/Program Files/GitHub CLI//**)",
+      "Read(//c/Users/deCODE/AppData/Local/Programs/**)"
+    ]
+  }
+}
